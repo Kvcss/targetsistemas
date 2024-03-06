@@ -1,7 +1,6 @@
-import 'dart:io';
 void main() {
-  stdout.write("Digite um número para verificar se está na sequência de Fibonacci: ");
-  int numero = int.parse(stdin.readLineSync()!);
+  
+  int numero = 2;
   bool pertence = verificaFibonacci(numero);
   
   if (pertence) {
